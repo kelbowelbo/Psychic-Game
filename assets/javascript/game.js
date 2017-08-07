@@ -57,3 +57,9 @@ function getComputerGuess() {
 	console.log("This is a computer guess", guess);
 	return guess;
 }
+
+function playBackground() {
+	var x=document.getElementById("backgroundmusic");
+	x.play();
+	
+}
